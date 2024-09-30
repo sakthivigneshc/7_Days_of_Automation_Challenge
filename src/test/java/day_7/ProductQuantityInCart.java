@@ -17,7 +17,6 @@ public class ProductQuantityInCart {
 		
 		String productquantityvalue = "4";
 		String product ="Blue Top";
-		String productsPageText = "ALL PRODUCTS";
 		
 		// Verify the home page title
 		String Home_Page_Title = driver.getTitle();
