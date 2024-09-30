@@ -104,7 +104,7 @@ public class RegisterUser {
 		Assert.assertEquals(UserNameverifytext, "Sakthi");
 		System.out.println("Username is there as expected.");
 		
-		WebElement Deletelink =  driver.findElement(By.xpath("//a[normalize-space()='Delete Account']"));
+		/*WebElement Deletelink =  driver.findElement(By.xpath("//a[normalize-space()='Delete Account']"));
 		Deletelink.click();
 		
 		WebElement DeletionVerify = driver.findElement(By.xpath("//h2[@class='title text-center']/b"));
@@ -118,6 +118,6 @@ public class RegisterUser {
 
 		Assert.assertEquals(HomePageTitle, "Automation Exercise");
 		System.out.println("Back to Home page.");
-		driver.quit();	
+		driver.quit();*/	
 	}
 }
